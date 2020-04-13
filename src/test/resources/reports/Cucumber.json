@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10787685400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 66800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 920400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to write a step with \"name1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name1\"",
+                  "offset": 28
+                }
+              ],
+              "location": "SampleStep.i_want_to_write_a_step_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I check for the \"5\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleStep.i_check_for_the_in_step(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the \"success\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 13
+                }
+              ],
+              "location": "SampleStep.i_verify_the_in_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6328728600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 389600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I want to write a step with \"name2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name2\"",
+                  "offset": 28
+                }
+              ],
+              "location": "SampleStep.i_want_to_write_a_step_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I check for the \"7\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleStep.i_check_for_the_in_step(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the \"Fail\" in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 13
+                }
+              ],
+              "location": "SampleStep.i_verify_the_in_step(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/tags.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
